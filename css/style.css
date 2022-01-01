@@ -1,0 +1,606 @@
+ul 
+{
+	display: inline-flex;
+	list-style-type: none;
+}
+
+li a {
+    display: flex;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    /*border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;*/
+    padding: 8px;
+}
+
+li a {
+    color: #black;
+}
+li:hover 
+{
+    /*background-color: #0065FC;*/
+    border-top: 2px solid;
+    color: #0065FC;
+ }
+   .hebergement{
+
+	color: #DEEBFF;
+	font-size: 20px;
+}
+
+.activite
+{
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+.booki
+{
+	margin-right: 5px;
+	justify-content: flex-start;
+	height: 20px;
+
+}
+.booki img
+{
+	height: 24px;
+}
+
+nav.barrenav ul li a
+{
+	text-decoration: none;
+
+}
+
+.global img 
+{
+	height: 120px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+/*.container img
+{
+	width: 100%;
+	height: 150px;
+}*/
+.global
+{
+	justify-content: space-between;
+	display: flex;
+}
+a
+{
+	color: black;
+	text-decoration: none;
+
+}
+.back
+{
+	background-color: #F2F2F2;	
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+
+}
+.back img
+{
+	width: 100%;
+	height: 120px;
+
+}
+.container
+{
+
+	width: 100%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	left: 0;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	gap: 20px;
+	padding: 0 20px;
+}
+
+.Auberge_la_Canebier, .Hotel_du_port, .Hotel_Les_Moulettes, .Hôtel_de_la_mer, .Auberge_Le_Panier, .Hôtel_chez_Amina
+{
+	background-color: white;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	width: calc(33% - 40px);
+	box-shadow: 0.6px 0.6px 6px lightgrey;
+
+
+}
+h2, p, h5 
+{
+	margin: 3px 0 ;
+}
+.container2 img 
+{
+	width: 120px;
+}
+
+.HTB, .HLS, .AC
+{
+	background-color: white;
+	margin-top: 35px;
+	display: flex;
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	box-shadow: 0.6px 0.6px 6px lightgrey;
+	margin-left: 10px;
+	width: 300px;
+
+}
+.container2 img
+{
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 0;
+	padding: 4px;
+
+}
+.container2
+{
+	background-color: #F2F2F2;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 4px;
+	width: 24%;
+
+}
+.LPP
+{
+	justify-content: space-between;
+
+}
+
+.Filtre
+{
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 2px;
+	align-items: center;
+}
+.fa-search
+{
+	display: none !important;
+
+}
+
+.tag
+{
+	border: 2px solid #F2F2F2;
+	margin: 4px;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+
+}
+
+.tag span
+{
+	margin:0 8px;
+}
+.tag i
+{
+		background-color: #DEEBFF;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color:#0065FC ;
+}
+
+.loc
+{
+	display: flex;
+	align-items: center;
+
+}
+.loc i.fa-map-marker-alt 
+{
+		background-color: lightgrey;
+		width: 40px;
+		height: 40px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: -3px;
+}
+.imput_search
+{
+	height: 40px;
+	border: 1px solid lightgrey;
+	
+}
+.imput_submit
+{
+	height: 40px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 1px solid #0065FC;
+	background-color: #0065FC;
+	color: white;
+	padding-left: 18px ;
+	padding-right: 18px;
+}
+
+
+
+.stars i
+{
+	color: #0065FC;
+	
+}
+
+.long
+{
+	height: 310px;
+	width: 205px;
+}
+.petite
+{
+	height: 164px;
+}
+
+.act1
+{
+	display: flex;
+	
+
+}
+
+.card-lg img
+{
+	width: 320px;
+	height: 400px;
+
+}
+.card-md img 
+{
+	width: 320px;
+
+}
+.card-lg
+{
+	box-shadow: 0.6px 0.6px 6px lightgrey;
+
+	padding: 10px;
+	background-color: white;
+	margin-left: 7px;
+	margin-top: 7px;
+	margin-bottom: -10px;
+	margin: 10px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	width: 320px;
+}
+
+.card-md
+{
+	box-shadow: 0.6px 0.6px 6px lightgrey;
+	width: 320px;
+	padding: 10px;
+	background-color: white;
+	margin-left: 7px;
+	margin-top: 7px;
+	margin-bottom: -10px;
+	margin: 10px;
+	box-shadow: 0.6px 0.6px 6px lightgrey;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+
+}
+
+
+.block1, .block2
+{
+	display: flex;
+	width: 50%;
+}
+
+.act
+{
+	display: flex;
+}
+
+
+.img1
+{
+
+
+}
+.title
+{
+	font-size: 17px;
+
+
+}
+.description
+{
+	font-size: 15px;
+
+}
+.stars
+{
+	font-size: 13px;
+}
+
+.finish
+{
+	display: flex;
+	background-color: #F2F2F2;
+}
+.propos
+{
+	padding: 15px;
+	margin-right: 30px;
+	width: 30%
+}
+.Nos_Hebergements
+{
+	padding: 15px;
+	margin-right: 30px;
+	width: 30%;
+
+}
+.Assistance
+{
+	padding: 15px;
+	margin-right: 30px;
+	width: 30%
+}
+body
+{
+height: 100vh;
+}
+
+@media screen and ( min-width: 768px) and ( max-width: 992px) 
+{
+	.block1{
+	display: block;
+	}
+	.block2{
+		display: block;
+	}
+	.back{
+	padding: 10px;
+	}
+	.container2{
+		width: 33%;
+	}
+}
+
+
+
+
+
+	@media screen and ( max-width: 767px)
+{
+
+	.barrenav
+	{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.barrenav ul
+	{
+		width: 100%;
+		padding-top: 40px;
+	}
+	.barrenav li:hover 
+	{
+   	 	border-top:none;
+   	 	border-bottom: 2px solid;
+    	color: #0065FC;
+ }
+		.booki
+	{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.booki img
+	{
+		height: 60px;
+	}
+	.barrenav ul li 
+	{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+	.global
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.back{
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		background-color: white;
+	}
+	
+	.finish{
+		display: block;
+	}
+	.barrenav
+	{
+		margin: none;
+	}
+	.Filtre
+	{
+		display: flex;
+		width: auto;
+		padding: ;
+	}
+	.container2{	
+		display: block;
+		margin-top: 6px;
+		width: 100%;
+		background-color: #F2F2F2;
+		border-radius: 8px;
+
+	}
+	.act
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.block1
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.block2
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.long,
+	{
+		width: auto;
+		height: auto;
+	}
+	 .petite
+	{
+		width: auto;
+		height: auto;
+	}
+	.global img
+	{
+		height: 300px;
+		width: 550px;
+	}
+	.Auberge_la_Canebier, .Hotel_du_port, .Hotel_Les_Moulettes, .Hôtel_de_la_mer, .Auberge_Le_Panier, .Hôtel_chez_Amina
+	{
+		background-color: white;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		box-shadow: 0.6px 0.6px 6px lightgrey;
+		width: auto;
+		height: auto;
+
+	}
+	.container, 
+	{
+		display: flex;
+		flex-direction: column;
+		flex: wrap;
+
+	}
+	.container2 img
+	{
+		border-bottom-left-radius: 12px;
+   		border-top-left-radius: 12px;
+   	 	border-top-right-radius: 0;
+   	 	width: 180px;
+   	 	height: 100%;
+
+	}
+	.HTB, .HLS, .AC
+	{
+		background-color: white;
+		display: flex;
+		border-radius: 8px;	
+		border: 5px solid #FFF;	
+		box-shadow: 0.6px 0.6px 6px lightgrey;
+		overflow: hidden;
+		width: auto;
+		height: 150px;
+		position: relative;
+	}
+	.HTB{
+		margin-bottom: 6px;
+	}
+	.text{
+		padding: 15px;
+
+	}
+	.text .stars{
+		position: absolute;
+		bottom: 10px;
+	}
+	.AC
+	{
+
+		background-color: white;
+		display: flex;
+		border-bottom-left-radius: 8px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		box-shadow: 0.6px 0.6px 6px lightgrey;
+	}
+	.act img
+	{
+		width: 100%, auto;
+	}
+	.finish
+	{
+		width: auto;
+	}
+	.card-lg, 
+	{
+		width: auto;
+		height: 400px;
+
+	}
+	.card-md{
+
+	}
+	.act{
+		width: auto;
+	}
+	.imput_submit
+	{	
+		display: none;
+
+	}
+	.fa-search
+	{
+		background: #0065FC !important; 
+		display: block !important;
+		width: 40px;
+		height: 40px;
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+		color: #FFFF;
+		position: relative;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		margin-left: -3px;
+	}
+}

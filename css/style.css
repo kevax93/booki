@@ -1,8 +1,11 @@
 .html{
 	width: max-content 100vh;;
 }
-ul 
-{
+@font-face {
+	font-family: Raleway;
+	src: url(static/Raleway-Thin.ttf);
+}
+ul {
 	display: inline-flex;
 	list-style-type: none;
 }
@@ -23,13 +26,12 @@ ul {
 li a {
     color: black;
 }
-li:hover 
-{
+li:hover {
     /*background-color: #0065FC;*/
     border-top: 2px solid;
     color: #0065FC;
- }
-   .hebergement{
+}
+.hebergement{
 
 	color: #DEEBFF;
 	font-size: 20px;
@@ -103,7 +105,7 @@ a
 .container
 {
 
-	width: 100vh;
+	width: auto;
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -168,6 +170,7 @@ h2, p, h5
 	border-top-right-radius: 8px;
 	padding: 4px;
 	width: 40vh;
+	margin-left: 50px;
 
 }
 .LPP
@@ -205,14 +208,14 @@ h2, p, h5
 }
 .tag i
 {
-		background-color: #DEEBFF;
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		color:#0065FC ;
+	background-color: #DEEBFF;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#0065FC ;
 }
 
 .loc
@@ -223,15 +226,15 @@ h2, p, h5
 }
 .loc i.fa-map-marker-alt 
 {
-		background-color: lightgrey;
-		width: 40px;
-		height: 40px;
-		border-top-left-radius: 10px;
-		border-bottom-left-radius: 10px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-right: -3px;
+	background-color: lightgrey;
+	width: 40px;
+	height: 40px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: -3px;
 }
 .imput_search
 {
@@ -290,7 +293,6 @@ h2, p, h5
 .card-lg
 {
 	box-shadow: 0.6px 0.6px 6px lightgrey;
-
 	padding: 10px;
 	background-color: white;
 	margin-left: 7px;
@@ -319,7 +321,6 @@ h2, p, h5
 	border-bottom-right-radius: 8px;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
-
 }
 
 
@@ -374,28 +375,27 @@ h2, p, h5
 	margin-right: 30px;
 	width: 30%
 }
-.html{
-	width: 100vh;
-}
 
 @media screen and ( min-width: 768px) and ( max-width: 992px) 
 {
-	.global{
-		width: 137vh;
+	.global2{
+		width: 768px;
 	}
 	.block1, .block2{
-	display: block;
-	width: 100vh;
+	display: flex;
+	flex-direction: column-reverse;
 	}
 	.back{
 	padding: 10px;
 	}
 	.container2{
 		width: auto;
+		margin-left: 20px;
 	}
 	.container{
 		display: flex;
 		width: auto;
+		gap: 10px;
 	}
 	.Auberge_la_Canebier, .Hotel_du_port, .Hotel_Les_Moulettes, .Hôtel_de_la_mer, .Auberge_Le_Panier, .Hôtel_chez_Amina
 	{
@@ -425,11 +425,11 @@ h2, p, h5
 		margin-left: 10px;
 		margin-bottom: 68px;
 		width: 300px;
-		height: 188px;
+		height: 143px;
 	}
 	.container2 img {
-		width: 120px;
-		height: 179px;
+		height: 136px;
+		width: 125.764px;
 	}
 	.barrenav
 	{
@@ -469,22 +469,24 @@ h2, p, h5
 	.finish{
 		width: max-content 100vh;
 	}
+	
 }
 
 
 
 
 
-	@media screen and ( max-width: 767px){
+@media screen and ( max-width: 767px)
+{
 
 	.barrenav
 	{
-		width: 100%;
+		width: 558px;
 		flex-wrap: wrap;
 	}
 	.barrenav ul
 	{
-		width: 100%;
+		width: 558px;
 		padding-top: 40px;
 	}
 	.barrenav li:hover 
@@ -509,10 +511,17 @@ h2, p, h5
 		display: flex;
 		justify-content: center;
 	}
+	.dream{
+		width: 558px;
+	}
+	.dinos{
+		width: 558px;
+	}
 	.global
 	{
 		display: flex;
 		flex-direction: column-reverse;
+		width: 558px;
 	}
 	.back{
 		display: flex;
@@ -536,10 +545,10 @@ h2, p, h5
 	.container2{	
 		display: block;
 		margin-top: 6px;
-		width: 100vh;
+		width: 558px;
 		background-color: #F2F2F2;
 		border-radius: 8px;
-
+		margin-left: 0;
 	}
 	.act
 	{
@@ -569,8 +578,8 @@ h2, p, h5
 	}
 	.global img
 	{
-		height: 400px;
-		width: 98vh;
+		height: 216px;
+		width: 527.292px;
 	}
 	.Auberge_la_Canebier, .Hotel_du_port, .Hotel_Les_Moulettes, .Hôtel_de_la_mer, .Auberge_Le_Panier, .Hôtel_chez_Amina
 	{
@@ -580,7 +589,7 @@ h2, p, h5
 		border-top-left-radius: 8px;
 		border-top-right-radius: 8px;
 		box-shadow: 0.6px 0.6px 6px lightgrey;
-		width: 98vh;
+		width: 527.292px;
 		height: auto;
 
 	}
@@ -596,8 +605,8 @@ h2, p, h5
 		border-bottom-left-radius: 12px;
    		border-top-left-radius: 12px;
    	 	border-top-right-radius: 0;
-   	 	width: 33vh;
-   	 	height: 94%;
+		height: 216px;
+		width: 175.764px;
 
 	}
 	.HTB, .HLS, .AC
@@ -607,8 +616,8 @@ h2, p, h5
 		border-radius: 8px;	
 		box-shadow: 0.6px 0.6px 6px lightgrey;
 		overflow: hidden;
-		width: auto;
-		height: 150px;
+		height: 216px;
+		width: 527.292px;
 		position: relative;
 	}
 	.HTB{
@@ -635,11 +644,11 @@ h2, p, h5
 	}
 	.act img
 	{
-		width: 100%, auto;
+		width: 527.292px;
 	}
 	.finish
 	{
-		width: auto;
+		width: 566px;
 	}
 	.card-lg 
 	{
@@ -671,17 +680,23 @@ h2, p, h5
 		margin-left: -3px;
 	}
 	.card-md img 
-{
-	width: 98vh;
+	{
+		height: 216px;
+		width: 527.292px;
 
-}
-.card-lg img{
-	width: 98vh;
-}
-.card-lg, .card-md{
-	width: 98vh;
-}
-.html{
-	width: max-content 100vh;;
-}
 	}
+	.card-lg img{
+		height: 216px;
+		width: 527.292px;
+	}
+	.card-lg, .card-md{
+		height: 230px;
+		width: 527.292px;
+	}
+	.html{
+	width: max-content 767px;;
+	}
+	.body{
+		width: max-content 767px;
+	}
+}
